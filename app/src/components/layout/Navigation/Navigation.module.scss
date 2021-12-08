@@ -1,0 +1,32 @@
+@import "../../../sass/variables.sass";
+
+.navigation{
+    display: flex;
+    &__list{
+        display: flex;
+        align-self: stretch;
+    }
+
+    &__list-item{
+        align-self: stretch;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & a{
+            padding: 2rem 4rem;
+        }
+    }
+
+    &__link{
+
+       &--active{
+        color: $color-primary;
+       }
+    }
+}
+
+.active{
+    color: red
+
+}

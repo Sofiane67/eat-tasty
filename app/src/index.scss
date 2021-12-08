@@ -1,0 +1,33 @@
+@import "./sass/variables.sass";
+
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+  color: $color-text;
+}
+
+#root{
+  height: 100%;
+}
+

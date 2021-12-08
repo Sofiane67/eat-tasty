@@ -1,0 +1,12 @@
+.wrapper{
+    height: 100%;
+    max-width: 120rem;
+    width: 100%;
+    margin: 0 auto;
+
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+    }
+}
