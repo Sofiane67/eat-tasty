@@ -20,6 +20,12 @@ a{
   color: inherit;
 }
 
+button{
+  border: 0;
+  outline: none;
+  background-color: transparent;
+}
+
 body {
   height: 100vh;
   font-family: 'Inter', sans-serif;
