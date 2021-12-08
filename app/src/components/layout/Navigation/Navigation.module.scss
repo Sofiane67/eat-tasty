@@ -2,12 +2,6 @@
 
 .navigation{
     display: flex;
-    
-    & button{
-        width: 5.5rem;
-        height: 5.5rem;
-        border-radius: .5rem;
-    }
 
     &__list{
         display: flex;
@@ -30,5 +24,12 @@
        &--active{
         color: $color-primary;
        }
+    }
+
+    &__btn-cart{
+        width: 5.5rem;
+        height: 5.5rem;
+        border-radius: .5rem;
+        padding: 0;
     }
 }

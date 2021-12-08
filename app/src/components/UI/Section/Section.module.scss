@@ -1,0 +1,8 @@
+.section{
+    padding: 10rem 0;
+    &--hero{
+        background-image: url(../../../images/bg/bg_shape.svg);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+}

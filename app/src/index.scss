@@ -24,6 +24,23 @@ button{
   border: 0;
   outline: none;
   background-color: transparent;
+  font-family: inherit;
+  background-color: $color-primary;
+  color: $color-white;
+  background-image: url(./images/bg/button-wave.svg);
+  cursor: pointer;
+  border-radius: .5rem;
+  padding: 2rem 3rem;
+  font-size: 1.8rem;
+}
+
+h1{
+  font-size: 6rem;
+}
+
+h2{
+  font-size: 5.5rem;
+  color: $color-primary;
 }
 
 body {
@@ -37,3 +54,10 @@ body {
   height: 100%;
 }
 
+.word-color{
+  color: $color-primary;
+}
+
+.heading{
+  color: $color-heading;
+}

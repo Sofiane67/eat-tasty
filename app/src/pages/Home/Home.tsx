@@ -1,8 +1,10 @@
+import Hero from "../../components/Hero/Hero";
+import Wrapper from "../../components/layout/Wrapper/Wrapper";
 
 
 const Home = () => {
     return (
-        <div></div>
+        <Hero/>
     )
 }
 
