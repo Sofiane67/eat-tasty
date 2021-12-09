@@ -14,11 +14,9 @@
     }
 
     &__grid{
-        
         grid-template-columns: repeat(auto-fit, minmax(44rem,1fr));
+        min-height: 55rem;
         
-        
-
         &--col-3{
             grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
         }
