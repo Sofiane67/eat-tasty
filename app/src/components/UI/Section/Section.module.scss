@@ -5,4 +5,10 @@
         background-repeat: no-repeat;
         background-position: right top;
     }
+
+    &--shape{
+        background-image: url(../../../images/bg/bg_shape_content.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
 }

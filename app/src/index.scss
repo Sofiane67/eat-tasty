@@ -40,7 +40,6 @@ h1{
 
 h2{
   font-size: 5.5rem;
-  color: $color-primary;
 }
 
 body {
@@ -60,4 +59,7 @@ body {
 
 .heading{
   color: $color-heading;
+  &--h2{
+    color: $color-primary;
+  }
 }

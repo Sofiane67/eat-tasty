@@ -1,10 +1,15 @@
+import { Fragment } from "react";
+import About from "../../components/About/About";
 import Hero from "../../components/Hero/Hero";
-import Wrapper from "../../components/layout/Wrapper/Wrapper";
 
 
 const Home = () => {
     return (
-        <Hero/>
+        <Fragment>
+            <Hero/>
+            <About/>
+        </Fragment>
+        
     )
 }
 

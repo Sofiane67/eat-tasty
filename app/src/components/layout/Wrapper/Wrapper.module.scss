@@ -10,7 +10,7 @@
         height: 100%;
     }
 
-    &__grid-col-2{
+    &__grid{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(40rem,1fr));
     }

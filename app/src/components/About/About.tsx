@@ -1,21 +1,21 @@
 import Wrapper from "../layout/Wrapper/Wrapper";
-import heroImg from "../../images/img_hero.png";
+import aboutImg from "../../images/img_about.png";
 import Section from "../UI/Section/Section";
 import TextSection from "../TextSection/TextSection";
 import ImgSection from "../ImgSection/ImgSection";
 
-const Hero = () => {
+const About = () => {
     const text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sequi quasi placeat voluptatum vitae architecto a repellendus est aperiam aliquam."
     return (
-        <Section nameClass="hero">
+        <Section nameClass="shape">
             <Wrapper nameClass="grid">
-                <TextSection text={text} textBtn="Commander">
-                    <h1 className="heading">Beautiful food & takeaway, <span className="word-color">delivered</span> to your door</h1>
+                <TextSection text={text} textBtn="En savoir plus">
+                    <h2 className="heading heading--h2">The home offresh products</h2>
                 </TextSection>
-                <ImgSection image={heroImg}/>
+                <ImgSection image={aboutImg}/>
             </Wrapper>
         </Section>
     )
 }
 
-export default Hero; 
+export default About; 
