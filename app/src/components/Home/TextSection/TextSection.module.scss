@@ -1,8 +1,21 @@
+@import "../../../sass/variables.sass";
 .textSection{
-    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     &__text{
         font-size: 1.8rem;
         margin: 2rem 0;
         line-height: 3rem;
+    }
+
+    &__btn{
+        background-color: $color-primary;
+        color: $color-white;
+        background-image: url(../../../images/bg/button-wave.svg);
+        border-radius: .5rem;
+        padding: 2rem 3rem;
+        font-size: 1.8rem;
     }
 }
