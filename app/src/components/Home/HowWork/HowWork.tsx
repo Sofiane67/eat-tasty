@@ -1,8 +1,8 @@
-import Wrapper from "../layout/Wrapper/Wrapper";
-import Section from "../layout/Section/Section";
-import workImg1 from "../../images/work_1.png";
-import workImg2 from "../../images/work_2.png";
-import workImg3 from "../../images/work_3.png";
+import Wrapper from "../../layout/Wrapper/Wrapper";
+import Section from "../../layout/Section/Section";
+import workImg1 from "../../../images/work_1.png";
+import workImg2 from "../../../images/work_2.png";
+import workImg3 from "../../../images/work_3.png";
 import Work from "../Work/Work";
 
 const HowWork = () => {

@@ -1,7 +1,7 @@
 import { Fragment } from "react";
-import About from "../../components/About/About";
-import Hero from "../../components/Hero/Hero";
-import HowWork from "../../components/HowWork/HowWork";
+import About from "../../components/Home/About/About";
+import Hero from "../../components/Home/Hero/Hero";
+import HowWork from "../../components/Home/HowWork/HowWork";
 
 
 const Home = () => {

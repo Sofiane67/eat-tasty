@@ -1,6 +1,6 @@
-import Wrapper from "../layout/Wrapper/Wrapper";
-import aboutImg from "../../images/img_about.png";
-import Section from "../layout/Section/Section";
+import Wrapper from "../../layout/Wrapper/Wrapper";
+import aboutImg from "../../../images/img_about.png";
+import Section from "../../layout/Section/Section";
 import TextSection from "../TextSection/TextSection";
 import ImgSection from "../ImgSection/ImgSection";
 
