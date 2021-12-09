@@ -3,6 +3,9 @@
     max-width: 120rem;
     width: 100%;
     margin: 0 auto;
+    display: grid;
+    grid-gap: 3rem;
+    justify-items: center;
 
     &__header{
         display: flex;
@@ -11,7 +14,13 @@
     }
 
     &__grid{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(40rem,1fr));
+        
+        grid-template-columns: repeat(auto-fit, minmax(44rem,1fr));
+        
+        
+
+        &--col-3{
+            grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+        }
     }
 }
