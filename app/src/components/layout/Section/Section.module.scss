@@ -1,5 +1,5 @@
 .section{
-    padding: 10rem 0;
+    padding: 10rem 3rem;
     &--hero{
         background-image: url(../../../images/bg/bg_shape.svg);
         background-repeat: no-repeat;
@@ -10,5 +10,10 @@
         background-image: url(../../../images/bg/bg_shape_content.svg);
         background-repeat: no-repeat;
         background-position: bottom right;
+        background-size: cover;
+    }
+
+    &--how-work{
+        text-align: center;
     }
 }

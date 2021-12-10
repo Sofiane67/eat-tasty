@@ -1,21 +1,21 @@
-import Wrapper from "../layout/Wrapper/Wrapper";
-import aboutImg from "../../images/img_about.png";
-import Section from "../UI/Section/Section";
+import Section from "../../layout/Section/Section";
+import Wrapper from "../../layout/Wrapper/Wrapper";
 import TextSection from "../TextSection/TextSection";
 import ImgSection from "../ImgSection/ImgSection";
+import phoneImg from "../../../images/phone-img.png";
 
-const About = () => {
+const Faq = () => {
     const text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sequi quasi placeat voluptatum vitae architecto a repellendus est aperiam aliquam."
     return (
-        <Section nameClass="shape">
+        <Section nameClass="">
             <Wrapper nameClass="grid">
-                <TextSection text={text} textBtn="En savoir plus">
+                <ImgSection image={phoneImg} />
+                <TextSection text={text} textBtn="Voir la FAQ">
                     <h2 className="heading heading--h2">The home offresh products</h2>
                 </TextSection>
-                <ImgSection image={aboutImg}/>
             </Wrapper>
         </Section>
     )
 }
 
-export default About; 
+export default Faq;

@@ -9,7 +9,7 @@ const TextSection:FC<{
         <div className={classes.textSection}>
             {children}
             <p className={classes["textSection__text"]}>{text}</p>
-            <button className={classes["textSection__btn"]}>{textBtn}</button>
+            <a href="#" className={classes["textSection__btn"]}>{textBtn}</a>
         </div>
     )
 }

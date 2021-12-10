@@ -1,0 +1,46 @@
+@import "../../../sass/variables.sass";
+
+.cta{
+    &__img-box{
+        width: 100%;
+        height: 100%;
+    }
+
+    &__img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__text-box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 2rem;
+        background-image: 
+        linear-gradient(rgba($color-primary, 0.85), rgba($color-primary, 0.85)),
+        url(../../../images/blue-point-1.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%, 90%;
+    }
+
+    &__title{
+        color: $color-white
+    }
+    
+    &__blue-word{
+        color: darken($color-primary,11%)
+    }
+
+    &__btn{
+        color: $color-primary;
+        font-size: 1.8rem;
+        background-color: $color-white;
+        padding: 2rem;
+        border-radius: .5rem;
+        margin-top: 5rem;
+    }
+}
