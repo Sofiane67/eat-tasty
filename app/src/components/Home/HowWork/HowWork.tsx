@@ -28,7 +28,7 @@ const HowWork = () => {
             <h2 className="heading heading--h2">How it works</h2>
             <Wrapper nameClass="grid--col-3">
                 {
-                    contents.map(content => <Work image={content.image} title={content.title} text={content.text}/>)
+                    contents.map((content,index) => <Work key={index} image={content.image} title={content.title} text={content.text}/>)
                 }
             </Wrapper>
         </Section>

@@ -8,7 +8,7 @@ const Navigation = () => {
         <nav className={classes.navigation}>
             <ul className={classes["navigation__list"]}>
                 {
-                    links.map(link => <li className={classes["navigation__list-item"]}><NavLink className={(navData) => (navData.isActive ? classes["navigation__link--active"] : "")} to={link.url}>{link.name}</NavLink></li>)
+                    links.map((link, index) => <li key={index} className={classes["navigation__list-item"]}><NavLink className={(navData) => (navData.isActive ? classes["navigation__link--active"] : "")} to={link.url}>{link.name}</NavLink></li>)
                 }
             </ul>
 
