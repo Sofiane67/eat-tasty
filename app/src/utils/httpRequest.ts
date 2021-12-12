@@ -7,5 +7,5 @@ export const sendHttpRequest = async (url: string, init: {method:string} | {meth
     } catch (error) {
         console.log(error);
     }
-    
+
 }

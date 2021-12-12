@@ -7,11 +7,11 @@ export const links: {
         url: "/"
     },
     {
-        name: "Commande",
-        url: "/commande"
+        name: "Menu",
+        url: "/menu"
     },
     {
-        name:"contact",
+        name:"Contact",
         url:"/contact"
     }
 ];

@@ -9,7 +9,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <Provider store={store}>
-      <PersistGate persistor={persistoreFct(store)}>
+    <PersistGate persistor={persistoreFct(store)}>
       <BrowserRouter>
         <App />
       </BrowserRouter>
